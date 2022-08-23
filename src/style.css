@@ -258,10 +258,15 @@ header {
 /* Landing  */
 
 .section-height{
-  height: 68vh;
+  height: 75vh;
   background-color: #ECECEC;
   display: flex;
   position: relative;
+}
+@media(max-width:768px){
+  .section-height{
+    height: 68vh;
+  }
 }
 .landing {
   padding-bottom: 80px;
