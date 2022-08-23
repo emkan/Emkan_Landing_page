@@ -32,7 +32,7 @@ body {
   --buttons-border-color: #EE1B5E;
   --section-padding: 20px;
   --title-size: 50px;
-  --main-color: #2196f3;
+  --main-color: #3a3772;
   --main-color-alt: #1787e0;
   --main-transition: 0.3s;
   --main-padding-top: 100px;
@@ -118,6 +118,7 @@ header {
 }
 .nav-css ul li {
   /* padding: 10px; */
+  text-align: center;
   color: #8F8F8F;
   font-weight: bold;
   font-size: 15px;
@@ -265,7 +266,7 @@ header {
 }
 @media(max-width:768px){
   .section-height{
-    height: 68vh;
+    height: 55vh;
   }
 }
 .landing {
@@ -315,6 +316,9 @@ header {
 
 .row{
   position: relative;
+}
+.icom-landing.col-md-4{
+  margin-top: -10vh;
 }
 
 .title h1 {
@@ -375,7 +379,7 @@ color: #3A3772;
   font-size: 30px;
   color: #3A3772;
   font-weight: 900;
-margin-top: 11rem;
+margin-top: 4rem;
 margin-bottom: 2rem;
 }
 .head-line p {
@@ -648,7 +652,7 @@ aspect-ratio: 1/1.25;
 
 
 footer {
-padding: 100px 0vw;
+padding: 50px 0vw;
 color: white;
 text-align: right;
 border-top: 1px solid #D1D1D1;
@@ -736,9 +740,6 @@ footer li{
   padding-right: 4px;
 }
 
-.unmain_padding{
-  padding-top: 20px;
-}
 .twi{
   display: flex;
   align-items: center;

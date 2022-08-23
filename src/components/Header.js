@@ -25,7 +25,7 @@ export default function Header() {
               <a href="#about" className="nav-links">
                 <li>عن الشركة</li>
               </a>
-              <a href="#services">
+              <a href="#services" className="nav-links">
                 <li>خدماتنا</li>
               </a>
 
