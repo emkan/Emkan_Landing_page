@@ -33,7 +33,7 @@ export default function Landing() {
         
       </div>
       
-      <a href="#about" className="projects">
+      <a href="#contact-us" className="projects">
           <i className="fas fa-angle-double-down fa-2x"></i>
         </a>
 
