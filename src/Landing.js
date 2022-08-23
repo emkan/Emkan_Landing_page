@@ -10,7 +10,7 @@ export default function Landing() {
         <div className="icom-landing col-md-4">
           <div className="icom-info">
             <div className="title">
-              <h1>إمكان</h1>
+              <h1> إمكان | Emkan </h1>
               <h3>نسعى في إمكان لتلبية احتياجاتك التمويلية عبر آلية عمل هي الأسهل والأسرع، لنكون خيارك الأفضل</h3>
             </div>
           </div>
