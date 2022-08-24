@@ -141,7 +141,7 @@ export default function Contact() {
          
           <form onSubmit={handleSubmit} >
             <label htmlFor="name" className="labels">
-              الاسم
+              الاسم الكريم
             </label>
             <input
               type="text"
@@ -165,7 +165,7 @@ export default function Contact() {
               value={formData.email}
             />
             <label htmlFor="select" className="labels">
-              ادخل الخدمة المطلوبة
+              اختر الخدمة المطلوبة
             </label>
 
             <select
