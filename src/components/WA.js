@@ -1,6 +1,5 @@
 import React from "react";
-import { ReactDOM } from "react";
-import { Classnames } from "react-alice-carousel";
+
 
 
 export default function WA(){

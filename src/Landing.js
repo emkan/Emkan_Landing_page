@@ -19,13 +19,13 @@ export default function Landing() {
         <div id="carouselExampleControls" className="carousel slide col-md-8" data-bs-ride="carousel">
           <div className="carousel-inner ">
             <div className="carousel-item active">
-              <img src={require('./assets/image/hero-1.png')} alt={'img'} className={'img-fluid hero-car'}/>
+              <img src={require('./assets/image/hero-1.png')} rel="preload" as="image" alt={'img'} className={'img-fluid hero-car'}/>
             </div>
             <div className="carousel-item">
-            <img src={require('./assets/image/hero-1.png')} alt={'img'} className={'img-fluid hero-car'}/>
+            <img src={require('./assets/image/hero-1.png')} rel="preload" as="image" alt={'img'} className={'img-fluid hero-car'}/>
             </div>
             <div className="carousel-item">
-            <img src={require('./assets/image/hero-1.png')} alt={'img'} className={'img-fluid hero-car'}/>
+            <img src={require('./assets/image/hero-1.png')} rel="preload" as="image" alt={'img'} className={'img-fluid hero-car'}/>
             </div>
           </div>
           

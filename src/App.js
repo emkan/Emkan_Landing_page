@@ -1,14 +1,13 @@
-import React from "react";
-import Header from "./components/Header";
-import Landing from "./Landing";
-
-import HeadLine from "./HeadLine";
-import Contact from "./ContactFrom";
-import Spikes from './components/Spikes';
-import Services from "./Services";
-import Footer from "./components/Footer";
-import FooterRights from './components/FooterRights'
-import WA from "./components/WA";
+import React, { lazy,Suspense  } from "react";
+const Header = lazy(() => import ("./components/Header"));
+const Landing = lazy(() => import ("./Landing"));
+const Contact = lazy(() => import ("./ContactFrom"));
+const HeadLine = lazy(() => import ("./HeadLine"));
+const Spikes = lazy(() => import ("./components/Spikes"));
+const Services = lazy(() => import ("./Services"));
+const Footer = lazy(() => import ("./components/Footer"));
+const FooterRights = lazy(() => import ("./components/FooterRights"));
+const WA = lazy(() => import ("./components/WA"));
 
 
 
@@ -16,12 +15,12 @@ import WA from "./components/WA";
 export default function App() {
   
   return (
+    <Suspense fallback={<div>جاري التحميل... </div>}>
     <div className="father">
-      <Header />
-      <Landing />
-     
+      
+        <Header />
+        <Landing />
       <div className="container-css">
-        
         <Contact />
         <HeadLine />
       </div>
@@ -31,5 +30,6 @@ export default function App() {
       <FooterRights/>
       <WA />
     </div>
+    </Suspense>
   );
 }
