@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <div class="services" id="services">
       <h2 class="main-title">خدماتنا</h2>
-      <div class="container">
+      <div class="container-css">
         <div class="box">
         <i class="fa-solid fa-coins fa-4x"></i>
           <h3>التمويل الشخصي</h3>

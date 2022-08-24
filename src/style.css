@@ -32,7 +32,7 @@ body {
   --buttons-border-color: #EE1B5E;
   --section-padding: 20px;
   --title-size: 50px;
-  --main-color: #3a3772;
+  --main-color: #7777AE;
   --main-color-alt: #1787e0;
   --main-transition: 0.3s;
   --main-padding-top: 100px;
@@ -98,16 +98,14 @@ header {
   }
 }
 
-.nav-css ul {
+.nav-css .new-ul {
   display: flex;
   align-items: center;
   justify-content: end;
-  width: 80%;
   list-style-type: none;
-  margin-top: 15px;
 }
 @media (max-width: 992px) {
-  .nav-css ul li {
+  .nav-css .new-ul li {
     font-size: 8px;
     display: none;
     
@@ -116,9 +114,9 @@ header {
       display: none;
     }
 }
-.nav-css ul li {
+.nav-css .new-ul li {
   /* padding: 10px; */
-  text-align: center;
+  text-align: right;
   color: #8F8F8F;
   font-weight: bold;
   font-size: 15px;
@@ -126,7 +124,7 @@ header {
   transition: 0.3s ease;
   width: 100px;
 }
-.nav-css ul li:hover {
+.nav-css .new-ul li:hover {
   background-color: rgba(255, 255, 255, 0.1);
   color: #3A3772;
 }
@@ -347,7 +345,7 @@ header {
 }
 .projects i{
     animation: bouncing 1.5s infinite;
-    color: #2196f3;
+    color: #33BCBB;
 }
 
 
@@ -407,10 +405,10 @@ margin-bottom: 2rem;
   margin-bottom: 2rem;
 }
 .haapy-p{
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
   text-align: right;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: #2D2D2D;
 
 }
@@ -562,7 +560,7 @@ aspect-ratio: 1/1.25;
   background-color: var(--section-background);
 
 }
-.services .container {
+.services .container-css {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 40px;

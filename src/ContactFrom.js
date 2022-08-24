@@ -20,7 +20,6 @@ export default function Contact() {
   const [formData, setFormData] = React.useState({
     name: "",
     email: "",
-    message: "",
     service: ""
   });
   let flag = true
@@ -47,9 +46,6 @@ export default function Contact() {
    if(formData.email === ''){
     formData.email = 'ْ';
    }
-   if(formData.message === ''){
-    formData.message = 'ْ';
-   }
    if(formData.service === ''){
     formData.service = 'تصميم وبرمجة مواقع الويب';
    }
@@ -62,8 +58,7 @@ export default function Contact() {
      let res = await axios.post("https://icom-agency.com/api/add-message",{
       name:formData.name,
       email:formData.email,
-      message: formData.message,
-      service:formData.message,
+      service:formData.service,
       phone:value
      }
       );
@@ -140,7 +135,7 @@ export default function Contact() {
   </div>
       
       <h1>تواصل معنا</h1>
-      <p className="haapy-p">نسعد بخدماتكم وبالإجابة على استفساراتكم</p>
+      <p className="haapy-p">قم بتعبئة البيانات المطلوبة وسيتم التواصل معك في أسرع وقت ممكن!</p>
       <section className="row">
         <div className="rectangle-and-form col-md-5 offset-md-1">
          
@@ -204,16 +199,7 @@ export default function Contact() {
             <PhoneInput value={value} onChange={setvalue}/>
            
             <span className="enter-number">  </span>
-            <label htmlFor="message" className="labels">
-              الرسالة
-            </label>
-            <textarea
-              value={formData.message}
-              placeholder="الرجاء كتابة استفسارك هنا..."
-              onChange={handleChange}
-              id="message"
-              name="message"
-            />
+            
             <button type="submit" id="s" onClick={check}>ارسال</button>
           </form>
         </div>

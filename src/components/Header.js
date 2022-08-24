@@ -18,12 +18,12 @@ export default function Header() {
             </a>
           </div>
           <div className="dir-ul">
-            <ul>
+            <div className="new-ul">
               <a href="https://www.emkanfinance.com.sa/ar/" className="nav-links">
                 <li>الرئيسية</li>
               </a>
               <a href="#about" className="nav-links">
-                <li>عن الشركة</li>
+                <li style={{marginLeft: '1vw'}}>عن الشركة</li>
               </a>
               <a href="#services" className="nav-links">
                 <li>خدماتنا</li>
@@ -38,7 +38,7 @@ export default function Header() {
                 }`}
                 onClick={handleclick}
               ></i>
-            </ul>
+            </div>
           </div>
         </div>
         <div className={`${isOpen ? "notmenu" : "menu"} new-nav`}>
@@ -52,7 +52,7 @@ export default function Header() {
               <li
                 className={`nav-links-new ${isOpen ? "hidemenu" : "showmenu"}`}
               >
-                <a href="https://icom-digital.com/">الرئيسية</a>
+                <a href="https://www.emkanfinance.com.sa/ar/">الرئيسية</a>
               </li>
               <li
                 className={`nav-links-new ${isOpen ? "hidemenu" : "showmenu"}`}
@@ -67,7 +67,7 @@ export default function Header() {
               <li
                 className={`nav-links-new ${isOpen ? "hidemenu" : "showmenu"}`}
               >
-                <a href="#services">اتصل بنا</a>
+                <a href="#contact-us">اتصل بنا</a>
               </li>
             </ol>
          
