@@ -204,7 +204,7 @@ export default function Contact() {
           </form>
         </div>
         <img
-          src={require("./assets/image/1.jpg")}
+          src={require("./assets/image/11.jpg")}
           alt="contact"
           className="landing-image col-md-6"
           
