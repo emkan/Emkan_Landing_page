@@ -257,7 +257,7 @@ header {
 /* Landing  */
 
 .section-height{
-  height: 75vh;
+  height: calc(75vh + 30px);
   background-color: #ECECEC;
   display: flex;
   position: relative;
@@ -549,6 +549,20 @@ aspect-ratio: 1/1.25;
   z-index: 1;
   background-image: linear-gradient(135deg, white 25%, transparent 25%), linear-gradient(225deg, white 25%, transparent 25%);
   background-size: 30px 30px;
+}
+
+/* SpikesLanding */
+
+.spikes-landing::after{
+  content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    z-index: 1;
+    background-image: linear-gradient(320deg, white 25%, transparent 25%), linear-gradient(41deg, white 25%, transparent 25%);
+    background-size: 30px 30px;
 }
 
 /* Services */
@@ -989,6 +1003,7 @@ background-color: #32BCBB;;
   padding: 15px;
   border-radius: 50%;  
   box-shadow: 0 0 10px gray;
+  z-index: 30;
 }
 
 

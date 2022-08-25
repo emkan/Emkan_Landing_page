@@ -1,10 +1,8 @@
 
 
 
-export default function Footer() {
+export default function Spikes() {
   return (
-   
     <div class="spikes"></div>
- 
   );
 }
