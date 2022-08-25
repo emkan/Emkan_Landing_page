@@ -43,6 +43,9 @@ export default function Landing() {
             <div className="carousel-item" data-bs-interval="2000">
               <img src={require('./assets/image/8.jpg')} rel="preload" as="image" alt={'img'} className={'img-fluid hero-car'} />
             </div>
+            <div className="carousel-item" data-bs-interval="2000">
+              <img src={require('./assets/image/9.jpg')} rel="preload" as="image" alt={'img'} className={'img-fluid hero-car'} />
+            </div>
           </div>
           
         </div>
