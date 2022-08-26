@@ -29,7 +29,7 @@ export default function Header() {
                 <li>خدماتنا</li>
               </a>
 
-              <a href="#contact-us" className="nav-links">
+              <a href="https://wa.me/message/GC6W4EGX6RLAN1" className="nav-links">
                 <li>اتصل بنا</li>
               </a>
               <i
@@ -67,7 +67,7 @@ export default function Header() {
               <li
                 className={`nav-links-new ${isOpen ? "hidemenu" : "showmenu"}`}
               >
-                <a href="#contact-us">اتصل بنا</a>
+                <a href="https://wa.me/message/GC6W4EGX6RLAN1">اتصل بنا</a>
               </li>
             </ol>
          
