@@ -135,10 +135,16 @@ export default function Contact() {
   </div>
       
       <h1>تواصل معنا</h1>
-      <p className="haapy-p">قم بتعبئة البيانات المطلوبة وسيتم التواصل معك في أسرع وقت ممكن!</p>
+      
       <section className="row">
         <div className="rectangle-and-form col-md-5 offset-md-1">
-         
+        
+        <div className="contact-box">
+        <p className="contact-t-w">تواصل معنا عبر الواتس اب</p>
+          <a href="https://wa.me/message/GC6W4EGX6RLAN1" className="contact-w-icon"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <p style={{fontSize: '30px', margin: '20px'}}>او</p>
+        <p className="haapy-p">قم بتعبئة البيانات المطلوبة وسيتم التواصل معك في أسرع وقت ممكن!</p>
           <form onSubmit={handleSubmit} >
             <label htmlFor="name" className="labels">
               الاسم الكريم
