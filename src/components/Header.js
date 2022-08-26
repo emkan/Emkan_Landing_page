@@ -28,10 +28,6 @@ export default function Header() {
               <a href="#services" className="nav-links">
                 <li>خدماتنا</li>
               </a>
-
-              <a href="https://wa.me/message/GC6W4EGX6RLAN1" className="nav-links">
-                <li>اتصل بنا</li>
-              </a>
               <i
                 className={`fa-solid fa-bars ${
                   isOpen ? "showmenu" : "hidemenu"
@@ -40,6 +36,9 @@ export default function Header() {
               ></i>
             </div>
           </div>
+          <a href="https://wa.me/message/GC6W4EGX6RLAN1" className="contact-us-btn">
+                <li>اتصل بنا</li>
+          </a>
         </div>
         <div className={`${isOpen ? "notmenu" : "menu"} new-nav`}>
           <div>
