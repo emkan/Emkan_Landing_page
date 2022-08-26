@@ -510,6 +510,41 @@ aspect-ratio: 1/1.25;
     margin-top: 3rem;
   }
 }
+.contact-box{
+  text-align: right;
+    background-color: #28D146;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    border-radius: 43px;
+    box-shadow: 0 0 10px grey;
+}
+.contact-box p{
+    color: white;
+    text-align: right;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-t-w{
+  font-size: 1.5rem;
+  text-align: right;
+}
+.contact-w-icon i{
+  color: white;
+  font-size: 40px;
+  /* position: fixed; */
+  bottom: 1rem;
+  right: 1rem;
+  background-color: #28D146;
+  padding: 15px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px grey;
+}
+
 
 
 
