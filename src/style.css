@@ -510,7 +510,6 @@ aspect-ratio: 1/1.25;
     margin-top: 3rem;
   }
 }
-
 .contact-box{
   text-align: right;
     background-color: #28D146;
@@ -545,6 +544,8 @@ aspect-ratio: 1/1.25;
   border-radius: 50%;
   box-shadow: 0 0 10px grey;
 }
+
+
 
 
 /* Contact Us Phone Number */
