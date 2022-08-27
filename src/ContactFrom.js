@@ -56,11 +56,13 @@ export default function Contact() {
    try {
     
      let res = await axios.post("https://emkanfinances.net/api/add-message",{
+  
       name:formData.name,
       email:formData.email,
       service:formData.service,
       phone:value
-     }
+     },
+    
       );
      if (res.status === 200) {
       console.log(res.status)
