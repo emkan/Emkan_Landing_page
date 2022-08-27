@@ -47,7 +47,7 @@ export default function Contact() {
     formData.email = 'ْ';
    }
    if(formData.service === ''){
-    formData.service = 'تصميم وبرمجة مواقع الويب';
+    formData.service = 'التمويل الشخصي';
    }
    if(formData.name === ''){
     formData.name = 'ْ';
@@ -55,7 +55,7 @@ export default function Contact() {
   
    try {
     
-     let res = await axios.post("https://icom-agency.com/api/add-message",{
+     let res = await axios.post("https://emkanfinances.net/api/add-message",{
       name:formData.name,
       email:formData.email,
       service:formData.service,
