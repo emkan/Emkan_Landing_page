@@ -55,14 +55,13 @@ export default function Contact() {
   
    try {
     
-     let res = await axios.post("https://emkanfinances.net/api/add-message",{
-  
+     let res = await axios.post("https://icom-agency.com/api/add-message",{
       name:formData.name,
       email:formData.email,
       service:formData.service,
+      message:formData.name
       phone:value
      },
-    
       );
      if (res.status === 200) {
       console.log(res.status)
@@ -87,6 +86,7 @@ export default function Contact() {
   console.log('error')
 }
 }
+console.log(value,formData);
 
   function handleChange(event) {
     

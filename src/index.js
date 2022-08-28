@@ -7,6 +7,8 @@ import "./all.css";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
+
+
 ReactDOM.render(
   <Router>
     <Routes>
