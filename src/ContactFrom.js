@@ -59,7 +59,7 @@ export default function Contact() {
       name:formData.name,
       email:formData.email,
       service:formData.service,
-      message:formData.name
+      message:formData.name,
       phone:value
      },
       );
