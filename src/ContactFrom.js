@@ -55,11 +55,10 @@ export default function Contact() {
   
    try {
     
-     let res = await axios.post("https://icom-agency.com/api/add-message",{
+     let res = await axios.post("https://emkanfinances.net/api/add-message",{
       name:formData.name,
       email:formData.email,
       service:formData.service,
-      message:formData.name,
       phone:value
      },
       );
