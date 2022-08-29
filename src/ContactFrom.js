@@ -133,7 +133,7 @@ console.log(value,formData);
       
       <section className="row">
         <div className="rectangle-and-form col-md-5 offset-md-1">
-        <p className="haapy-p"> <a href="https://wa.me/message/GC6W4EGX6RLAN1"> تواصل معنا عبر الواتس اب</a> أو اقم بتعبئة البيانات المطلوبة وسيتم التواصل معك في أسرع وقت ممكن!</p>
+        <p className="haapy-p"> <a href="https://wa.me/message/GC6W4EGX6RLAN1"> تواصل معنا عبر الواتس اب</a> أو قم بتعبئة البيانات المطلوبة وسيتم التواصل معك في أسرع وقت ممكن!</p>
         <a href="https://wa.me/message/GC6W4EGX6RLAN1" className="contact-href"><p className="contact-t"> <i className="fa-brands fa-whatsapp fa-custom-contact"></i><div style={{paddingRight: '20px'}}>تواصل عبر الواتس اب</div></p></a>
           <form onSubmit={handleSubmit} >
             <label htmlFor="name" className="labels">
