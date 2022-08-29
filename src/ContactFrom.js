@@ -2,16 +2,11 @@ import axios from "axios";
 import React from "react";
 import PhoneInput from 'react-phone-input-2';
 import "react-phone-input-2/lib/style.css";
-
-
-
-
-
 import Popup from 'reactjs-popup';
 
 
 export default function Contact() {
-
+  
   
 
   
@@ -36,6 +31,7 @@ export default function Contact() {
     flag = true
     document.querySelector('.enter-number').innerHTML = ''
       }
+    
 };
    
   
@@ -55,7 +51,7 @@ export default function Contact() {
   
    try {
     
-     let res = await axios.post("https://emkanfinances.net/api/add-message",{
+    let res = await axios.post("https://emkanfinances.net/api/add-message",{
       name:formData.name,
       email:formData.email,
       service:formData.service,
@@ -71,7 +67,8 @@ export default function Contact() {
          
        });
        document.querySelector('.clicked-button').click()
-       setTimeout(()=>window.location.replace(window.location.href),3000)
+       document.querySelector('.modal').style.display = "block"
+       setTimeout(()=>window.location.replace(window.location.href),1000)
      } else {
        console.log("Some error occured");
      }
@@ -111,24 +108,20 @@ console.log(value,formData);
         <button className="close" onClick={close}>
           &times;
         </button>
-        <div className="header"> تم ارسال رسالتك بنجاح </div>
+        <div className="header-css"> تم ارسال رسالتك بنجاح </div>
         <div className="content">
           {' '}
           <div class="success-checkmark">
-  <div class="check-icon">
-    <span class="icon-line line-tip"></span>
-    <span class="icon-line line-long"></span>
-    <div class="icon-circle"></div>
-    <div class="icon-fix"></div>
-  </div>
-</div>
-
+            <div class="check-icon">
+              <span class="icon-line line-tip"></span>
+              <span class="icon-line line-long"></span>
+              <div class="icon-circle"></div>
+              <div class="icon-fix"></div>
+            </div>
+          </div>
           <br />
-        
         </div>
         <div className="actions">
-          
-          
         </div>
       </div>
     )}
