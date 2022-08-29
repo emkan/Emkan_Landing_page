@@ -66,6 +66,7 @@ export default function Contact() {
          }
          
        });
+       document.querySelector('#s').disabled = true
        document.querySelector('.clicked-button').click()
        document.querySelector('.modal').style.display = "block"
        setTimeout(()=>window.location.replace(window.location.href),1000)
@@ -195,7 +196,7 @@ console.log(value,formData);
            
             <span className="enter-number">  </span>
             
-            <button type="submit" id="s" onClick={check}>ارسال</button>
+            <button type="submit" id="s" onClick={check} >ارسال</button>
           </form>
         </div>
         <img
