@@ -19,7 +19,7 @@ export default function Header() {
           </div>
           <div className="dir-ul">
             <div className="new-ul">
-              <a href="https://www.emkanfinance.com.sa/ar/" className="nav-links">
+              <a href="#" className="nav-links">
                 <li>الرئيسية</li>
               </a>
               <a href="#about" className="nav-links">
@@ -51,7 +51,7 @@ export default function Header() {
               <li
                 className={`nav-links-new ${isOpen ? "hidemenu" : "showmenu"}`}
               >
-                <a href="https://www.emkanfinance.com.sa/ar/">الرئيسية</a>
+                <a href="#">الرئيسية</a>
               </li>
               <li
                 className={`nav-links-new ${isOpen ? "hidemenu" : "showmenu"}`}
